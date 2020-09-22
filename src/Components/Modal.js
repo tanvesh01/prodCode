@@ -8,7 +8,7 @@ const Modal = () => {
         <ModalContext.Consumer>
             {({ windowPosition, hasDraggedWindowPosition, extensionId, getExtensionId }) => (
                 <Draggable
-                    handle=".modal-handle"
+                    handle=".main_modal_handle__NS02W"
                     defaultPosition={{ x: windowPosition.x, y: windowPosition.y }}
                     position={
                         hasDraggedWindowPosition
